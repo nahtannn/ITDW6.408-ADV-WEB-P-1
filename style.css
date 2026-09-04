@@ -1,0 +1,129 @@
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #9debff;
+  border: 2px solid #1a6abb;
+  color: #1a6abb;
+  font: bold 1.5rem "bradley hand", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  border: 2px solid #1a6abb;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("Images/tempBackground.jpg");
+
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+
+  background-position: center;
+  background-size: cover;
+
+  filter: blur(5px);
+}
+
+.instagram-icon {
+  background: radial-gradient(circle at 30% 107%, 
+    #fdf497 0%, 
+    #fdf497 5%, 
+    #fd5949 45%, 
+    #d6249f 60%, 
+    #285AEB 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* fallback */
+}
+/*moving css to style*/
+
+.accordion-button {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #115191;
+  background-color: var(--bs-warning);
+
+}
+
+button {
+  width: 120px;
+}
+
+/*Demo 1 Customization*/
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --card-bg: #f5f5f5;
+  }
+#customization-card {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  }
+  #customization-card.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --card-bg: #1e1e1e;
+}
