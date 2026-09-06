@@ -148,14 +148,14 @@ button {
 .research-flip-card-front {
   backface-visibility: hidden;
   background-color: #ffdcbe;
-  border: 4px solid #cea27b;
+  border: 4px solid #fca65b;
 }
 
 
 .research-flip-card-back {
   backface-visibility: hidden;
-  background: rgb(218, 215, 215);
-  border: 4px solid #cea27b;
+  background: rgb(230, 230, 230);
+  border: 4px solid #fca65b;
 }
 
 .research-flip-card-back {

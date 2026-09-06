@@ -70,7 +70,7 @@ export const privacy = {
                     <!--Link for further reading-->
                     <p>
                         For more information on Privacy, visit 
-                        <a href="https://www.privacy.org.nz/privacy-principles/">Privacy.org.nz</a>.
+                        <a href="https://www.privacy.org.nz/privacy-principles/" target="_blank">Privacy.org.nz</a>.
                     </p>
                 </div>
             </div>

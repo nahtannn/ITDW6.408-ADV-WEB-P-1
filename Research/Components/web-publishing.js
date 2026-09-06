@@ -38,7 +38,7 @@ export const hosting = {
                     <!--Link for further reading-->
                     <p>
                         For more information on web hosting, visit 
-                        <a href="https://webhosting.co.nz/top-10-factors-to-consider-when-choosing-a-nz-web-hosting/">Web Hosting Guide</a>.
+                        <a href="https://webhosting.co.nz/top-10-factors-to-consider-when-choosing-a-nz-web-hosting/" target="_blank">Web Hosting Guide</a>.
                         <br>
                         <i>(This website may be inaccurate as it is a small, independent guide)</i>
                     </p>

@@ -45,7 +45,7 @@ export const seo = {
                     <!--Link for further reading-->
                     <p>
                         For more information on Search Engine Optimization (SEO), visit 
-                        <a href="https://www.otago.ac.nz/marketing-services/resources/web-content-and-guidelines-for-the-university-of-otago/guides/search-engine-optimisation-seo-guide">Otago University Introduction to search engine optimisation</a>.
+                        <a href="https://www.otago.ac.nz/marketing-services/resources/web-content-and-guidelines-for-the-university-of-otago/guides/search-engine-optimisation-seo-guide" target="_blank">Otago University Introduction to search engine optimisation</a>.
                     </p>
                 </div>
             </div>

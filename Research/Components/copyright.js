@@ -74,7 +74,7 @@ export const copyright = {
                     <!--Link for further reading-->
                     <p>
                         For more information on Copyright, visit 
-                        <a href="https://www.iponz.govt.nz/get-ip/copyright/">The Intellectual Property Office of New Zealand</a>.
+                        <a href="https://www.iponz.govt.nz/get-ip/copyright/" target="_blank">The Intellectual Property Office of New Zealand</a>.
                     </p>
                 </div>
             </div>

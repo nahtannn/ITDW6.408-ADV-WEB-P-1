@@ -43,7 +43,24 @@ export const maintenance = {
                         Improving Website Load Time
                     </h5>
                     <p>
-                        Currently, my website
+                        Currently, my website has a performance rating of 72 and a speed index of 2.6 seconds. 
+                        This was evaluated using google chrome developer tools.
+                    </p>
+                    <h5 class="fw-bold">
+                        What will I do to improve my website performance?
+                    </h5>
+                    <p>
+                        To further improve my website's performance, I will:
+                    </p>
+                    <ul>
+                        <li>Optimize images by compressing and resizing them</li>
+                        <li>Limit the use of external scripts</li>
+                        <li>Limit the use of large media files</li>
+                    </ul>
+                    <!--Link for further reading-->
+                    <p>
+                        For more information on improving website performance, visit 
+                        <a href="https://www.cloudflare.com/learning/performance/speed-up-a-website/" target="_blank">Cloudflare How to Speed Up a Website</a>.
                     </p>
                 </div>
             </div>
