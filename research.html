@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab-1</title>
+    <title>Research Page</title>
 
     <!--Insert Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -84,10 +84,35 @@
     </header>
 
     <main style="min-height: 80vh;">
-        
+        <div class="container-fluid">
+            <h4 class="text-center fw-bold my-3">Web Development Research</h4>
+
+            <!--Components are imported into a row of cards-->
+            <div class="row g-4 m-2">
+                <!--Copyright Card-->
+                <div class="col-lg-4 col-md-6 col-12" id="copyright-component">Copyright</div>
+
+                <!--Privacy Card-->
+                <div class="col-lg-4 col-md-6 col-12" id="privacy-component">Privacy</div>
+
+                <!--Search Engine Optimization Card-->
+                <div class="col-lg-4 col-md-6 col-12" id="seo-component">SEO</div>
+
+                <!--Web Publishing Card-->
+                <div class="col-lg-4 col-md-6 col-12" id="hosting-component">Web Publishing</div>
+
+                <!--Web Performance Card-->
+                <div class="col-lg-4 col-md-6 col-12" id="maintenance-component">Web Performance</div>
+
+                <!--Web Security Card-->
+                <div class="col-lg-4 col-md-6 col-12" id="security-component">Web Security</div>
+            </div>
+        </div>
 
         
     </main>
+
+    <script type="module" src="research/research-app.js"></script>
 </body>
 <!--Footer-->
     <footer class="container-fluid" style="background-color: var(--navbar-color); min-height: 10vh;">
